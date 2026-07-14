@@ -8,11 +8,11 @@ sumstart = (quantity * cost) #ต้นทุน
 sumsell = (sell * quantity) #เงินที่ได้จากกาารขาย
 profit = (sumsell - sumstart) #กำไร
 InBoss = (profit * 0.20) #เข้าบอส
-net_profit = (profit - InBoss) #กำไรสุทธิ
+net_profits = (profit - InBoss) #กำไรสุทธิ
 
 #เงื่อนไขคนที่ไปทำงาน
 if team_members > 0:
-    team_members = net_profit / team_members
+    team_members = net_profits / team_members
 else:
     team_members = 0
 print(f"ต้นทุนทั้งหมด : {sumstart} บาท")

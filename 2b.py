@@ -7,4 +7,3 @@ if (power >= 5 and cash >= 1000) :
     print(name + " ผ่าน ประธาน")
 else:
     print(name + "ไม่ผ่าน")
-    
